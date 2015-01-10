@@ -14,6 +14,11 @@
 		8B88C7751A5F7C5500241993 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B88C7741A5F7C5500241993 /* Images.xcassets */; };
 		8B88C7781A5F7C5500241993 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B88C7761A5F7C5500241993 /* LaunchScreen.xib */; };
 		8B88C7841A5F7C5500241993 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B88C7831A5F7C5500241993 /* SuperCardTests.m */; };
+		8B89E5F41A5F7DCD0042177C /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89E5F31A5F7DCD0042177C /* PlayingCardView.m */; };
+		8BCE47DA1A60CC7D0021509C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE47D31A60CC7D0021509C /* Card.m */; };
+		8BCE47DB1A60CC7D0021509C /* Card+PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE47D51A60CC7D0021509C /* Card+PlayingCard.m */; };
+		8BCE47DC1A60CC7D0021509C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE47D71A60CC7D0021509C /* Deck.m */; };
+		8BCE47DD1A60CC7D0021509C /* Deck+PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE47D91A60CC7D0021509C /* Deck+PlayingDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		8B88C77D1A5F7C5500241993 /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B88C7821A5F7C5500241993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B88C7831A5F7C5500241993 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		8B89E5F21A5F7DCD0042177C /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardView.h; path = View/PlayingCardView.h; sourceTree = "<group>"; };
+		8B89E5F31A5F7DCD0042177C /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardView.m; path = View/PlayingCardView.m; sourceTree = "<group>"; };
+		8BCE47D21A60CC7D0021509C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Card.h"; sourceTree = "<group>"; };
+		8BCE47D31A60CC7D0021509C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Card.m"; sourceTree = "<group>"; };
+		8BCE47D41A60CC7D0021509C /* Card+PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Card+PlayingCard.h"; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Card+PlayingCard.h"; sourceTree = "<group>"; };
+		8BCE47D51A60CC7D0021509C /* Card+PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Card+PlayingCard.m"; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Card+PlayingCard.m"; sourceTree = "<group>"; };
+		8BCE47D61A60CC7D0021509C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Deck.h"; sourceTree = "<group>"; };
+		8BCE47D71A60CC7D0021509C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Deck.m"; sourceTree = "<group>"; };
+		8BCE47D81A60CC7D0021509C /* Deck+PlayingDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Deck+PlayingDeck.h"; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Deck+PlayingDeck.h"; sourceTree = "<group>"; };
+		8BCE47D91A60CC7D0021509C /* Deck+PlayingDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Deck+PlayingDeck.m"; path = "../../../../../Developer/XcodeProject/Matchismo副本/Matchismo/Deck+PlayingDeck.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +96,9 @@
 		8B88C7661A5F7C5500241993 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				8B88C76B1A5F7C5500241993 /* AppDelegate.h */,
-				8B88C76C1A5F7C5500241993 /* AppDelegate.m */,
+				8BCE47C21A60C9730021509C /* Model */,
+				8B89E5F21A5F7DCD0042177C /* PlayingCardView.h */,
+				8B89E5F31A5F7DCD0042177C /* PlayingCardView.m */,
 				8B88C76E1A5F7C5500241993 /* ViewController.h */,
 				8B88C76F1A5F7C5500241993 /* ViewController.m */,
 				8B88C7711A5F7C5500241993 /* Main.storyboard */,
@@ -96,6 +112,8 @@
 		8B88C7671A5F7C5500241993 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B88C76B1A5F7C5500241993 /* AppDelegate.h */,
+				8B88C76C1A5F7C5500241993 /* AppDelegate.m */,
 				8B88C7681A5F7C5500241993 /* Info.plist */,
 				8B88C7691A5F7C5500241993 /* main.m */,
 			);
@@ -117,6 +135,22 @@
 				8B88C7821A5F7C5500241993 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BCE47C21A60C9730021509C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE47D21A60CC7D0021509C /* Card.h */,
+				8BCE47D31A60CC7D0021509C /* Card.m */,
+				8BCE47D41A60CC7D0021509C /* Card+PlayingCard.h */,
+				8BCE47D51A60CC7D0021509C /* Card+PlayingCard.m */,
+				8BCE47D61A60CC7D0021509C /* Deck.h */,
+				8BCE47D71A60CC7D0021509C /* Deck.m */,
+				8BCE47D81A60CC7D0021509C /* Deck+PlayingDeck.h */,
+				8BCE47D91A60CC7D0021509C /* Deck+PlayingDeck.m */,
+			);
+			name = Model;
+			path = ../../../../Downloads/iOS_CourseWork/Matchismo3/Matchismo/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE47DA1A60CC7D0021509C /* Card.m in Sources */,
+				8BCE47DC1A60CC7D0021509C /* Deck.m in Sources */,
+				8BCE47DD1A60CC7D0021509C /* Deck+PlayingDeck.m in Sources */,
 				8B88C7701A5F7C5500241993 /* ViewController.m in Sources */,
+				8BCE47DB1A60CC7D0021509C /* Card+PlayingCard.m in Sources */,
+				8B89E5F41A5F7DCD0042177C /* PlayingCardView.m in Sources */,
 				8B88C76D1A5F7C5500241993 /* AppDelegate.m in Sources */,
 				8B88C76A1A5F7C5500241993 /* main.m in Sources */,
 			);
@@ -414,6 +453,7 @@
 				8B88C7891A5F7C5500241993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B88C78A1A5F7C5500241993 /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +462,7 @@
 				8B88C78C1A5F7C5500241993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
